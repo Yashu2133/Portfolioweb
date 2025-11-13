@@ -178,8 +178,8 @@ export const projects = [
       "SenderGrid",
     ],
     category: "web app",
-    github: "https://github.com/Yashu2133/Placement-Management",
-    webapp: "https://ry-placements.netlify.app",
+    github: "https://github.com/Yashu2133/PetFinds",
+    webapp: "https://petfindsapp.netlify.app/login",
   },
  
 ];
