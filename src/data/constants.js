@@ -179,7 +179,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Yashu2133/PetFinds",
-    webapp: "https://petfindsapp.netlify.app/login",
+    webapp: "https://petfindsapp.netlify.app",
   },
  
 ];
