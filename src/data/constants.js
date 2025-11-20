@@ -181,6 +181,27 @@ export const projects = [
     github: "https://github.com/Yashu2133/PetFinds",
     webapp: "https://petfindsapp.netlify.app",
   },
+
+   {
+    id: 2,
+    title: "E-Commerce",
+    description:
+      "A MERN-based E-commerce Web Application built using MongoDB, Express.js, React.js, and Node.js to deliver a dynamic and secure online shopping experience. Developed RESTful APIs for user authentication, product management, shopping cart, order processing, and payment handling. Implemented a responsive React front-end with reusable components, client-side routing, and centralized state management using Redux/Context API. Integrated secure payment gateways, inventory tracking, wishlist features, user reviews, and personalized product recommendations. Ensured high performance, scalability, accessibility, and strong security practices while including admin functionalities for product and order management — providing a complete, reliable, and user-friendly shopping platform.",
+    image:
+      "/pics/ecommerce.png",
+    tags: [
+       "HTML",
+      "CSS",
+      "JavaScript",
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+    ],
+    category: "web app",
+    github: "https://github.com/Yashu2133/E-commerce",
+    webapp: "https://e-cartcommerce.netlify.app/",
+  },
  
 ];
 
