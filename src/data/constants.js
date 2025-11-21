@@ -10,7 +10,7 @@ export const Bio = {
     "I’m an MSc Computer Science graduate with hands-on experience in MERN stack development. I’ve worked on both internship-based and self-built projects that strengthened my ability to build scalable, secure, and user-friendly web applications. I’m passionate about problem-solving, continuously learning new technologies, and contributing to impactful real-world software solutions.",
   github: "https://github.com/Yashu2133",
   resume:
-    "https://drive.google.com/file/d/1pj3TabCUQSWbhUuNBeQEMW_VO1B6lSP2/view?usp=sharing",
+    "https://drive.google.com/file/d/1dMU4ko5oA2idenfEgiIJlV5vSGAzN0uH/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rathik-yasvant-178676238/",
 };
 
@@ -140,11 +140,11 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Placement",
+    title: "Placement Management",
     description:
       "A full-stack Placement Management System built with the MERN stack, featuring role-based access for students, companies, and administrators. Implemented secure JWT authentication, automated email notifications, and real-time updates for job applications and interview scheduling. Designed a responsive analytics dashboard using React, TailwindCSS, and Recharts to help admins monitor placements, company activity, and student performance efficiently.",
     image:
-      "/pics/PM.png",
+      "/pics/Placement.png",
     tags: [
       "HTML",
       "CSS",
@@ -184,7 +184,7 @@ export const projects = [
 
    {
     id: 2,
-    title: "E-Commerce",
+    title: "E-Cart",
     description:
       "A MERN-based E-commerce Web Application built using MongoDB, Express.js, React.js, and Node.js to deliver a dynamic and secure online shopping experience. Developed RESTful APIs for user authentication, product management, shopping cart, order processing, and payment handling. Implemented a responsive React front-end with reusable components, client-side routing, and centralized state management using Redux/Context API. Integrated secure payment gateways, inventory tracking, wishlist features, user reviews, and personalized product recommendations. Ensured high performance, scalability, accessibility, and strong security practices while including admin functionalities for product and order management — providing a complete, reliable, and user-friendly shopping platform.",
     image:

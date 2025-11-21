@@ -16,8 +16,8 @@ const Button = styled.button`
     transition: all 0.8s ease-in-out;
 `
 const Card = styled.div`
-    width: 330px;
-    height: 490px;
+    width: 380px;
+    height: 560px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -28,15 +28,14 @@ const Card = styled.div`
     flex-direction: column;
     gap: 14px;
     transition: all 0.5s ease-in-out;
+
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
         filter: brightness(1.1);
     }
-    &:hover ${Button} {
-        display: block;
-    }
-`
+`;
+
 
 const Image = styled.img`
     width: 100%;
@@ -121,6 +120,32 @@ const Avatar = styled.img`
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border: 3px solid ${({ theme }) => theme.card};
 `
+const LinkButtons = styled.div`
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+`;
+
+const LinkButton = styled.a`
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: ${({ theme }) => theme.primary + 20};
+    color: ${({ theme }) => theme.text_primary};
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid ${({ theme }) => theme.primary};
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background: ${({ theme }) => theme.primary};
+        color: white;
+    }
+`;
+
 
 const ProjectCards = ({project,setOpenModal}) => {
     return (
@@ -142,6 +167,24 @@ const ProjectCards = ({project,setOpenModal}) => {
                 ))}
             </Members>
             {/* <Button>View Project</Button> */}
+            <LinkButtons>
+    <LinkButton 
+        href={project.github} 
+        target="_blank"
+        onClick={(e) => e.stopPropagation()}
+    >
+        GitHub
+    </LinkButton>
+
+    <LinkButton 
+        href={project.webapp} 
+        target="_blank"
+        onClick={(e) => e.stopPropagation()}
+    >
+        Live App
+    </LinkButton>
+</LinkButtons>
+
         </Card>
     )
 }
