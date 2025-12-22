@@ -10,7 +10,7 @@ export const Bio = {
     "I am an M.Sc. Computer Science graduate with hands-on experience in MERN stack development through internships and projects. I have worked on frontend and full-stack applications, focusing on building responsive user interfaces and integrating APIs. I am eager to continue learning and am currently seeking an internship or entry-level role where I can apply my skills and grow as a developer.",
   github: "https://github.com/Yashu2133",
   resume:
-    "https://drive.google.com/file/d/1dMU4ko5oA2idenfEgiIJlV5vSGAzN0uH/view?usp=sharing",
+    "https://drive.google.com/file/d/1-V24TtrCaWLu82a6j0zgoTg1zHIzGm_g/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rathik-yasvant-178676238/",
 };
 
