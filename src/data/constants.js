@@ -7,7 +7,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am an M.Sc. Computer Science graduate with hands-on experience in MERN stack development through internships, academic projects, and self-driven learning. I have worked on frontend-focused and full-stack projects that strengthened my understanding of building responsive user interfaces, integrating APIs, and working with backend services.I am passionate about problem-solving, continuously improving my technical skills, and gaining real-world experience by working on practical software applications. I am currently seeking an internship or entry-level role where I can apply my knowledge, learn from industry professionals, and grow as a developer.",
+    "I am an M.Sc. Computer Science graduate with hands-on experience in MERN stack development through internships and projects. I have worked on frontend and full-stack applications, focusing on building responsive user interfaces and integrating APIs. I am eager to continue learning and am currently seeking an internship or entry-level role where I can apply my skills and grow as a developer.",
   github: "https://github.com/Yashu2133",
   resume:
     "https://drive.google.com/file/d/1dMU4ko5oA2idenfEgiIJlV5vSGAzN0uH/view?usp=sharing",
