@@ -7,7 +7,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I’m an MSc Computer Science graduate with hands-on experience in MERN stack development. I’ve worked on both internship-based and self-built projects that strengthened my ability to build scalable, secure, and user-friendly web applications. I’m passionate about problem-solving, continuously learning new technologies, and contributing to impactful real-world software solutions.",
+    "I am an M.Sc. Computer Science graduate with hands-on experience in MERN stack development through internships, academic projects, and self-driven learning. I have worked on frontend-focused and full-stack projects that strengthened my understanding of building responsive user interfaces, integrating APIs, and working with backend services.I am passionate about problem-solving, continuously improving my technical skills, and gaining real-world experience by working on practical software applications. I am currently seeking an internship or entry-level role where I can apply my knowledge, learn from industry professionals, and grow as a developer.",
   github: "https://github.com/Yashu2133",
   resume:
     "https://drive.google.com/file/d/1dMU4ko5oA2idenfEgiIJlV5vSGAzN0uH/view?usp=sharing",
@@ -102,7 +102,7 @@ export const experiences = [
     role: "Software Developer Intern ",
     company: "JuzGo Digital,Coimbatore",
     date: "Jan 2025 - Apr 2025",
-    desc: "During my role as a Software Developer Intern, I completed a guided full-stack development program focused on the MERN stack (MongoDB, Express.js, React.js, and Node.js). I developed the PetFinds web application, where I applied front-end design principles, API integration, and database management concepts. This experience enhanced my understanding of real-world project structures, version control practices, and the creation of responsive, user-friendly interfaces.",
+    desc: "During my internship, I completed a guided full-stack development program focused on the MERN stack (MongoDB, Express.js, React.js, and Node.js). I worked on a basic e-commerce–style application to understand core full-stack concepts such as CRUD operations, API integration, authentication flow, and database interactions.This experience helped me understand real-world project structure, version control using Git, and building responsive, user-friendly interfaces.",
   },
   {
     id: 3,
